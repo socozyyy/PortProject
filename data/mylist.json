@@ -1,11 +1,16 @@
 [
   {
+    "name": "CE Nextgen camp",
+    "detail": "KMITL",
+    "year": "NOW"
+  },
+  {
     "name": "POSN Computer",
     "detail": "Suranaree University of Technology center",
     "year": "2026"
   },
   {
-    "name": "Pre-Engineering Program in Smart Electronics",
+    "name": "Pre-Engineering Program in <br />Smart Electronics",
     "detail": "thai innovation and robotics association",
     "year": "2025"
   }

@@ -2,7 +2,7 @@ const listBody = document.querySelector("#listBody");
 
 // detail.textContent = "Suranaree University of Technology center";
 
-fetch("/PortProject/data/mylist.json")
+fetch("../data/mylist.json")
   .then((response) => response.text())
   .then((text) => {
     const myList = JSON.parse(text);
@@ -18,7 +18,7 @@ fetch("/PortProject/data/mylist.json")
         </div>
         <span id="year">${exp.year}</span>
       `;
-      li.classList.add = "xpbox";
+      li.classList.add("xpbox");
       listBody.append(li);
     }
 
