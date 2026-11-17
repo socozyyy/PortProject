@@ -2,7 +2,7 @@ const listBody = document.querySelector("#listBody");
 
 // detail.textContent = "Suranaree University of Technology center";
 
-fetch("PortProject/data/mylist.json")
+fetch("/PortProject/data/mylist.json")
   .then((response) => response.text())
   .then((text) => {
     const myList = JSON.parse(text);
