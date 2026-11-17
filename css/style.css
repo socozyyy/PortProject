@@ -1,0 +1,209 @@
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.circle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.circle-icon:hover {
+  background: white;
+  color: blueviolet;
+  transform: translateX(10px);
+  transform: translateY(-5px);
+  box-shadow: blueviolet -3px 3px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(500px);
+  }
+  80% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#tw {
+  text-decoration: underline;
+}
+
+.sec {
+  display: block;
+  position: relative;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+  margin-bottom: 220px;
+  color: white;
+  font-family: "Press Start 2P";
+  gap: 20px;
+}
+
+.hello #name,
+#aboutMe span {
+  color: rgb(171, 81, 255);
+  -webkit-text-stroke: white 2px;
+  paint-order: stroke fill;
+}
+
+.contact li {
+  display: flex;
+  font-size: 30px;
+  list-style-type: none;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.circle-icon i {
+  width: 24px;
+  height: 24px;
+}
+
+.btn {
+  font-family: "Press Start 2P";
+  padding: 18px;
+  color: #ffffff;
+  border: #ffffff solid 2px;
+  background: rgba(0, 0, 0, 0);
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+  color: blueviolet;
+  transform: translateX(10px);
+  transform: translateY(-5px);
+  box-shadow: blueviolet -5px 5px;
+}
+
+.sd {
+  margin-top: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+#aboutMe.sec {
+  display: flex;
+  flex-direction: column;
+  /* left: 0;
+  right: 0; */
+  justify-content: center;
+  background-image: radial-gradient(rgb(255, 255, 255) 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  animation: fadeIn;
+  animation-timeline: view();
+  margin-bottom: 200px;
+}
+
+h2 {
+  position: relative;
+  color: white;
+  font-family: "Press Start 2P";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#aboutMe.sec h2 {
+  left: 15vw;
+}
+
+.width {
+  display: flex;
+  color: #ffffff;
+  font-family: Silkscreen;
+  font-size: 24px;
+  width: 70vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secalign {
+  display: flex;
+  justify-content: center;
+}
+
+.width img {
+  width: auto;
+  height: 300px;
+  box-shadow: white 10px 20px;
+}
+
+.info {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-shadow: violet 2px 1px;
+}
+
+#exp.sec h2 {
+  right: 30vh;
+  text-align: right;
+}
+
+.xpbox {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: blueviolet 5px 5px;
+}
